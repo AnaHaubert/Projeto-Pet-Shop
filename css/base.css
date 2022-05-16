@@ -1,0 +1,44 @@
+:root {
+    --branco: #FFFFFF;
+    --cornsilk: #FFF8DC;
+    --wheat: #F5DEB3;
+    --goldenrod: #DAA520; 
+    --maroon: #800000;
+
+    --fonte: 'Raleway', sans-serif;
+    --peso-texto: 400;
+    --tamanho-titulo: 2rem;
+    --tamanho-texto: 1.500rem;
+
+    --tamanho-titulo-responsivo: 1.5rem;
+    --tamanho-texto-responsivo: 1rem
+}
+
+.titulo {
+    font-family: var(--fonte);
+    font-size: var(--tamanho-titulo);
+    font-weight: var(--peso-texto);
+    color: var(--maroon);
+    align-items: center;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
+
+.texto {
+    font-family: var(--fonte);
+    font-size: var(--tamanho-texto);
+    font-weight: var(--peso-texto);
+    color: var(--maroon);
+    align-items: center;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 880px) {
+    .titulo {
+        font-size: var(--tamanho-titulo-responsivo); 
+    }
+
+    .texto {
+        font-size: var(--tamanho-texto-responsivo);
+    }
+}

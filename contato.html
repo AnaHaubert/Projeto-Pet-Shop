@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Shop | Produtos</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" />
+    <link rel="stylesheet" href="./css/home-main.css" />
+    <link rel="stylesheet" href="./css/rodape.css" />
+    <link rel="stylesheet" href="./css/sobre-nos.css" />
+    <link rel="stylesheet" href="./css/produto.css" />
+    <link rel="stylesheet" href="./css/contato.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho">
+      <img
+        src="./imagens/logo.png"
+        alt="Logo Pet Shop"
+        class="cabecalho-logo"
+      />
+      <nav>
+        <ul class="cabecalho-menu">
+          <li>
+            <a href="./index.html" class="cabecalho-meu_link">Home</a>
+          </li>
+          <li>
+            <a href="./sobre-nos.html" class="cabecalho-meu_link">Sobre nós</a>
+          </li>
+          <li>
+            <a href="./produtos.html" class="cabecalho-meu_link">Produtos</a>
+          </li>
+          <li>
+            <a href="./contato.html" class="cabecalho-meu_link">Contatos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="contato">
+      <section class="onde-encontrar">
+        <h2 class="titulo">Onde você nos encontra:</h2>
+        <p class="texto">Endereço: Endereço: Rua dos Alfeneiros, nº4</p>
+        <p class="texto">Telefone: 00 1234-5678</p>
+      </section>
+      <form class="contato-formulario">
+        <h2 class="titulo">Envie uma mensagem</h2>
+        <div class="contato-formulario_dados">
+          <label class="texto">Nome:</label>
+          <input
+            type="text"
+            placeholder="Digite seu nome"
+            required
+            class="contato_input"
+          />
+        </div>
+        <div class="contato-formulario_dados">
+          <label class="texto">E-mail:</label>
+          <input
+            type="email"
+            placeholder="Digite seu e-mail"
+            required
+            class="contato_input"
+          />
+        </div>
+        <div class="contato-formulario_dados">
+          <label class="texto">Mensagem:</label>
+          <textarea
+            class="contato_input contato_mensagem"
+            placeholder="Digite sua mensagem"
+            rows="10"
+          ></textarea>
+        </div>
+        <button type="input" class="contato_botao">Enviar</button>
+      </form>
+    </main>
+
+    <footer class="rodape">
+      <img src="./imagens/logo.png" alt="Logo" class="rodape-logo" />
+      <div class="rodape-contato">
+        <p class="texto rodape-contato_texto">
+          Endereço: Rua dos Alfeneiros, nº4
+        </p>
+        <p class="texto rodape-contato_texto">Telefone: 00 1234-5678</p>
+      </div>
+      <ul class="rodape-social">
+        <li>
+          <a href="#" class="rodape__social-midia"
+            ><img
+              src="./imagens/facebook.svg"
+              alt="Ícone do Facebook"
+              title="Facebook"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="rodape__social-midia"
+            ><img
+              src="./imagens/twitter.svg"
+              alt="Ícone do Twitter"
+              title="Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="#" class="rodape__social-midia"
+            ><img
+              src="./imagens/instagram.svg"
+              alt="Ícone do Instagram"
+              title="Instagram"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
